@@ -1,4 +1,3 @@
-
 class Car {
   // Properties
   String brand;
@@ -48,12 +47,13 @@ class Car {
 
 void main() {
   // Create three Car objects
+
   Car car1 = Car('Toyota', 'Corolla', 2010, 120000);
   Car car2 = Car('Honda', 'Civic', 2015, 80000);
   Car car3 = Car('Ford', 'Focus', 2018, 30000);
 
   // Drive each car a different number of miles
-  car1.drive(150);
+  car1.drive(250);
   car2.drive(200);
   car3.drive(100);
 
